@@ -1,0 +1,19 @@
+{
+  "name": "sails-hook-layout",
+  "version": "1.0.0",
+  "description": "Sails Hook for setting custom layout file & directory",
+  "main": "index.js",
+  "sails": {
+    "isHook": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makmakulet/sails-hook-layout.git"
+  },
+  "author": "makmakulet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makmakulet/sails-hook-layout/issues"
+  },
+  "homepage": "https://github.com/makmakulet/sails-hook-layout#readme"
+}
