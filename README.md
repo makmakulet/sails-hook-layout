@@ -22,13 +22,14 @@ Controller:
 module.exports = {
   index: function(req, res) {
     res.useLayout("admin/layout");
+    res.view();
   }
 };
 
 ```
 
 this will look for layout file:
-app/views/admin/layout.ejs
+sails-root-dir/views/admin/layout.ejs
 
 
 ## SailsLayout method | res.useLayout( layoutPath )
